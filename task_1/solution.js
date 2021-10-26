@@ -16,7 +16,7 @@ function addInCartMessage(title, price) {
 
     // Конец решения задания №1.1.
 
-    return message 'за' productPrice 'теперь в корзине!';
+    return message + ' за' + ' ' + productPrice + ' теперь в корзине!';
 }
 
 function addInCartCountChange(value) {
